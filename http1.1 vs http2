@@ -1,0 +1,12 @@
+difference between http1.1 vs http2
+
+http1.1:
+   1.It works on the text format.
+   2.single request for every TCP connection
+   3.Expands on the caching support by using additional headers like cache-control,.
+   
+   
+http2:
+   1.It works on the binary format.
+   2.It can use one connection for parallelism.
+   3.It allows Server Pushing to add responses proactively into the Browser cache.
